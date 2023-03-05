@@ -6794,7 +6794,7 @@ label {
 }
 
 .footer-area h6 {
-  color: #fff;
+  color: white;
   margin-bottom: 25px;
   font-size: 18px;
   font-weight: 600;
@@ -6804,6 +6804,10 @@ label {
   .footer-area h6 {
     margin-bottom: 15px;
   }
+}
+
+.footer-area p {
+  color: #777777;
 }
 
 .copy-right-text i,
@@ -6838,6 +6842,15 @@ label {
   color: #cccccc;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.single-footer-widget a {
+  color: #777777;
+}
+
+.single-footer-widget a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
